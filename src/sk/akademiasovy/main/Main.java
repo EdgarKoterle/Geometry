@@ -1,8 +1,9 @@
 package sk.akademiasovy.main;
 
-import sk.akademiasovy.geometry.Square;
-import sk.akademiasovy.geometry.Rectangle;
-import sk.akademiasovy.geometry.Triangle;
+import sk.akademiasovy.geometry2D.Circle;
+import sk.akademiasovy.geometry2D.Square;
+import sk.akademiasovy.geometry2D.Rectangle;
+import sk.akademiasovy.geometry2D.Triangle;
 
 public class Main {
     public static void main(String[] args) {
@@ -26,5 +27,9 @@ public class Main {
         System.out.println("Area of triangle1 is "+triangle1.getArea());
         System.out.println("Perimeter of triangle1 is "+triangle1.getPerimeter());
         System.out.println("Diagonal of triangle1 is "+triangle1.getDiagonal());
+
+        Circle circle1=new Circle (5.5);
+        System.out.println("Area of circle1 is "+triangle1.getArea());
+        System.out.println("Perimeter of circle1 is "+circle1.getPerimeter());
     }
 }
